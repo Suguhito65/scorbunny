@@ -1,39 +1,70 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>ヒバニー</title>
-</head>
-<body>
-  <div class="scorbunny">
-    <div class="head">
-      <div class="left-eye"></div>
-      <div class="right-eye"></div>
-      <div class="band"></div>
-      <div class="nose"></div>
-      <div class="mouth"></div>
-      <div class="left-cheek-fur"></div>
-      <div class="right-cheek-fur"></div>
-    </div>
-    <div class="left-ear">
-      <div class="left-ear-fix"></div>
-    </div>
-    <div class="right-ear">
-      <div class="right-ear-fix"></div>
-      <div class="right-ear-fur"></div>
-    </div>
-    <div class="body"></div>
-    <div class="left-hand"></div>
-    <div class="right-hand"></div>
-    <div class="left-leg"></div>
-    <div class="right-leg"></div>
-    <div class="left-foot"></div>
-    <div class="right-foot"></div>
-    <div class="left-toe"></div>
-    <div class="right-toe"></div>
-    <div class="shadow"></div>
-  </div>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <title>モンスターボール</title>
+    <style>
+      html {
+        box-sizing: border-box;
+      }
+
+      *, *::before, *::after {
+        box-sizing: inherit;
+      }
+
+      .ball {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 20em;
+        height: 20em;
+        margin: -10em;
+      }
+
+      .ball::before {
+        content: '';
+        position: absolute;
+        top:0%;
+        right: 0%;
+        width: 20em;
+        height: 10em;
+        background: #f00;
+        border: 0.5em solid #000;
+        border-top-left-radius: 10em 10em;
+        border-top-right-radius: 10em 10em;
+      }
+
+      .ball::after {
+        content: '';
+        position: absolute;
+        bottom:0%;
+        right: 0%;
+        width: 20em;
+        height: 10em;
+        background: #fff;
+        border: 0.5em solid #000;
+        border-bottom-left-radius: 10em 10em;
+        border-bottom-right-radius: 10em 10em;
+      }
+
+      .swich {
+        position: absolute;
+        top:50%;
+        left: 50%;
+        width: 3em;
+        height: 3em;
+        margin: -1.5em 0 0 -1.5em;
+        background: #fff;
+        border: 0.5em solid #000;
+        border-radius: 50%;
+        box-shadow: 0 0 0 1em #fff, 0 0 0 2em #000;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="./hibani-/scorbunny.html">
+      <div class="ball"></div>
+      <div class="swich"></div>
+    </a>
+  </body>
 </html>
