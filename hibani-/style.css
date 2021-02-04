@@ -37,7 +37,7 @@ body {
   position: absolute;
   width: 4.3em;
   height: 0.4em;
-  margin: -0.4em 0 0 2.7em;
+  margin: -0.35em 0 0 2.7em;
   background: #fff;
   border-top-left-radius: 2.15em 0.4em;
   border-top-right-radius: 2.15em 0.4em;
@@ -532,9 +532,9 @@ body {
 .right-foot:before {
   content: '';
   position: absolute;
-  width: 1.5em;
+  width: 1.45em;
   height: 2em;
-  margin: -1.2em 0 0 0.7em;
+  margin: -1.2em 0 0 0.65em;
   background: rgb(230, 230, 230);
   transform: rotate(35deg);
 }
