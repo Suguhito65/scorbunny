@@ -37,7 +37,7 @@ body {
   position: absolute;
   width: 4.3em;
   height: 0.4em;
-  margin: -0.3em 0 0 2.7em;
+  margin: -0.4em 0 0 2.7em;
   background: #fff;
   border-top-left-radius: 2.15em 0.4em;
   border-top-right-radius: 2.15em 0.4em;
@@ -196,7 +196,7 @@ body {
   left: 25%;
   width: 0.7em;
   height: 3.7em;
-  margin: 0 0 0 0.4em;
+  margin: -0.1em 0 0 0.4em;
   background: rgb(255, 224, 87);
   border: 0.1em solid #000;
   border-radius: 50%;
@@ -244,7 +244,7 @@ body {
   left: 25%;
   width: 0.7em;
   height: 3.7em;
-  margin: 0 0 0 0.4em;
+  margin: -0.1em 0 0 0.4em;
   background: rgb(255, 224, 87);
   border: 0.1em solid #000;
   border-radius: 50%;
@@ -384,7 +384,7 @@ body {
   margin: -0.4em 0 0 -0.4em;
   background: rgb(221, 144, 2);
   border: 0.2em solid #000;
-  border-radius: 7px;
+  border-radius: 15px;
   border-bottom-left-radius: 20px;
   transform:  perspective(4em) rotateX(-20deg) rotate(20deg);
 }
@@ -392,13 +392,13 @@ body {
 .body:after /* collar */ {
   content: '';
   position: absolute;
-  width: 1em;
+  width: 1.2em;
   height: 2.5em;
-  margin: -1.4em 0 0 4.4em;
+  margin: -1.4em 0 0 4.2em;
   background: rgb(221, 144, 2);
   border: 0.2em solid #000;
   border-radius: 10px;
-  transform:  perspective(4em) rotateX(-20deg) rotate(30deg);
+  transform:  perspective(4em) rotateX(-20deg) rotate(40deg);
 }
 
 .left-hand {
@@ -437,11 +437,10 @@ body {
   left: 54%;
   width: 5.5em;
   height: 2em;
-  background: #fff;
+  background: rgb(230, 230, 230);
   border: 0.2em solid #000;
   border-radius: 20px;
   transform: perspective(4em) rotateY(-20deg) rotate(-10deg);
-  box-shadow: inset 0em -0.2em rgb(230, 230, 230);
   z-index: 6;
 }
 
@@ -466,7 +465,7 @@ body {
   left: 58%;
   width: 3.5em;
   height: 2em;
-  background: #fff;
+  background: rgb(230, 230, 230);
   border: 0.3em solid #000;
   border-radius: 7px;
   transform: rotate(35deg);
@@ -478,7 +477,7 @@ body {
   width: 2em;
   height: 4.5em;
   margin: -0.2em 0 0 1.2em;
-  background: #fff;
+  background: rgb(230, 230, 230);
   border: 0.3em solid #000;
   border-radius: 7px;
 }
@@ -489,7 +488,7 @@ body {
   width: 3em;
   height: 1.5em;
   margin: -0.05em 0 0 -0.05em;
-  background: #fff;
+  background: rgb(230, 230, 230);
   border-radius: 7px;
 }
 
@@ -509,7 +508,7 @@ body {
 .left-foot:before {
   content: '';
   position: absolute;
-  width: 1.5em;
+  width: 1.4em;
   height: 1.5em;
   margin: -1em 0 0 2.1em;
   background: #fff;
@@ -523,11 +522,10 @@ body {
   left: 55.5%;
   width: 5em;
   height: 2em;
-  background: #fff;
+  background: rgb(230, 230, 230);
   border: 0.3em solid #000;
   border-radius: 7px;
   border-top-left-radius: 20px;
-  box-shadow: inset 0em -0.3em rgb(230, 230, 230);
   z-index: 9;
 }
 
@@ -537,7 +535,7 @@ body {
   width: 1.5em;
   height: 2em;
   margin: -1.2em 0 0 0.7em;
-  background: #fff;
+  background: rgb(230, 230, 230);
   transform: rotate(35deg);
 }
 
@@ -550,7 +548,7 @@ body {
   background: red;
   border: 0.3em solid #000;
   border-radius: 16px;
-  box-shadow: inset 0em -0.2em rgb(159, 1, 1);
+  box-shadow: inset 0em -0.2em rgb(204, 2, 2);
   z-index: 10;
 }
 
@@ -566,7 +564,7 @@ body {
   border-radius: 16px;
   border-bottom-left-radius: 14px;
   border-bottom-right-radius: 14px;
-  box-shadow: inset 0em -0.2em rgb(159, 1, 1);
+  box-shadow: inset 0em -0.2em rgb(204, 2, 2);
 }
 
 .left-toe:after {
@@ -580,7 +578,7 @@ body {
   border-left: 0.15em solid #000;
   border-radius: 17px;
   border-bottom-left-radius: 14px;
-  box-shadow: inset 0em -0.2em rgb(159, 1, 1);
+  box-shadow: inset 0em -0.2em rgb(204, 2, 2);
 }
 
 .right-toe {
@@ -589,10 +587,9 @@ body {
   left: 67%;
   width: 2.6em;
   height: 2.2em;
-  background: red;
+  background: rgb(204, 2, 2);
   border: 0.3em solid #000;
   border-radius: 17px;
-  box-shadow: inset 0em -0.2em rgb(159, 1, 1);
   z-index: 10;
 }
 
@@ -602,13 +599,12 @@ body {
   width: 1.8em;
   height: 2em;
   margin: -0.05em 0 0 -0.4em;
-  background: red;
+  background: rgb(204, 2, 2);
   border: 0.3em solid #000;
   border-right: 0.15em solid #000;
   border-radius: 16px;
   border-bottom-left-radius: 14px;
   border-bottom-right-radius: 14px;
-  box-shadow: inset 0em -0.2em rgb(159, 1, 1);
 }
 
 .shadow {
@@ -617,6 +613,6 @@ body {
   left: 23%;
   width: 17em;
   height: 2em;
-  background-color: rgba(0,0,0,0.1);
+  background: rgb(177, 177, 177);
   border-radius: 50%;
 }
