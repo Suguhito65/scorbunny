@@ -186,8 +186,6 @@ body {
   height: 1em;
   margin: 3.7em 0 0 -0.05em;
   background: orange;
-  border-top: 0.1em solid #000;
-  border-bottom: 0.1em solid #000;
 }
 
 .left-ear-fix {
@@ -234,8 +232,6 @@ body {
   height: 1em;
   margin: 3.7em 0 0 -0.05em;
   background: orange;
-  border-top: 0.1em solid #000;
-  border-bottom: 0.1em solid #000;
 }
 
 .right-ear-fix {
@@ -510,7 +506,7 @@ body {
   position: absolute;
   width: 1.4em;
   height: 1.5em;
-  margin: -1em 0 0 2.1em;
+  margin: -1em 0 0 2.15em;
   background: #fff;
   transform: rotate(35deg);
 }
@@ -534,7 +530,7 @@ body {
   position: absolute;
   width: 1.45em;
   height: 2em;
-  margin: -1.2em 0 0 0.65em;
+  margin: -1.2em 0 0 0.7em;
   background: rgb(230, 230, 230);
   transform: rotate(35deg);
 }
