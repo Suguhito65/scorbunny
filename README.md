@@ -1,4 +1,5 @@
-# ヒバニー
+# 作品名
+- ヒバニー
 
 # URL
 - https://suguhito65.github.io/scorbunny/
