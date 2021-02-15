@@ -1,4 +1,4 @@
-# scorbunny
+# Scorbunny
 
 # URL
 - https://suguhito65.github.io/scorbunny/
