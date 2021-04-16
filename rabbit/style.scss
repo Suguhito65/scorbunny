@@ -31,6 +31,9 @@ html {
   @include pm(-15em);
   @include tl(50%, 50%);
   @include hw(30em, 30em);
+  background: linear-gradient(#ffebfc, #fec5f4);
+  // background: #ffe6fd;
+  border-radius: 20%;
 }
 
 .head {
@@ -517,8 +520,8 @@ html {
 
 .shadow {
   @include pm(0);
-  @include tl(81%, 23%);
-  @include hw(2em, 17em);
-  background: rgb(177, 177, 177);
+  @include tl(79%, 23%);
+  @include hw(3em, 17em);
+  background: #aaa;
   border-radius: 50%;
 }

@@ -17,6 +17,9 @@ html {
   left: 50%;
   height: 30em;
   width: 30em;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffebfc), to(#fec5f4));
+  background: linear-gradient(#ffebfc, #fec5f4);
+  border-radius: 20%;
 }
 
 .head {
@@ -654,11 +657,11 @@ html {
 .shadow {
   position: absolute;
   margin: 0;
-  top: 81%;
+  top: 79%;
   left: 23%;
-  height: 2em;
+  height: 3em;
   width: 17em;
-  background: #b1b1b1;
+  background: #aaa;
   border-radius: 50%;
 }
 /*# sourceMappingURL=style.css.map */
